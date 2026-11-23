@@ -54,7 +54,7 @@ export default function Header() {
             {/* Logo */}
             <Link to="/" onClick={() => setMobileOpen(false)} className="flex items-center gap-3 group">
               <img
-                src="/assets/img/Kaziranga-Safari-Logo-final.png"
+                src="assets/img/Kaziranga-Safari-Logo-final.png"
                 alt="Kaziranga National Park Logo"
                 className="h-12 sm:h-14 w-auto object-contain transition-transform group-hover:scale-105"
               />
