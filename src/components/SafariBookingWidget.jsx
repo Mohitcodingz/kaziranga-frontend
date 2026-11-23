@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar as CalendarIcon, ChevronLeft, ChevronRight, CheckCircle2, AlertCircle, Phone } from 'lucide-react';
+import { ChevronLeft, ChevronRight, CheckCircle2, Phone } from 'lucide-react';
 
 export default function SafariBookingWidget({ defaultVehicle = 'Jeep' }) {
   const today = new Date();
@@ -98,9 +98,9 @@ export default function SafariBookingWidget({ defaultVehicle = 'Jeep' }) {
   };
 
   return (
-    <div className="bg-white rounded-2xl border border-slate-200/90 shadow-xl p-5 sm:p-6 transition-all">
+    <div className="booking-widget bg-white rounded-2xl border border-slate-200/90 shadow-xl p-5 sm:p-6 transition-all">
       {/* Top Contact Bar */}
-      <div className="bg-kaziranga-800 text-white rounded-xl p-3 sm:p-3.5 flex items-center justify-between mb-4 border-b-2 border-safariGold shadow-sm">
+      <div className="booking-widget-contact bg-kaziranga-800 text-white rounded-xl p-3 sm:p-3.5 flex items-center justify-between mb-4 border-b-2 border-safariGold shadow-sm">
         <div className="flex items-center gap-2.5">
           <span className="w-8 h-8 rounded-lg bg-emerald-900/60 flex items-center justify-center text-lg">
             🐾
@@ -122,43 +122,46 @@ export default function SafariBookingWidget({ defaultVehicle = 'Jeep' }) {
         </a>
       </div>
 
-      <h2 className="text-lg sm:text-xl font-bold text-slate-900 text-center mb-3">
+      <h2 className="booking-widget-title text-lg sm:text-xl font-bold text-slate-900 text-center mb-3">
         Jeep & Elephant Safari Reservation
       </h2>
 
       {/* Interactive Calendar */}
-      <div className="bg-slate-50 border border-slate-200 rounded-xl p-3.5 mb-5 shadow-inner">
-        <div className="flex items-center justify-between mb-3 px-1">
+      <div className="booking-calendar bg-slate-50 border border-slate-200 rounded-xl p-3.5 mb-5">
+        <div className="booking-calendar-heading flex items-center justify-between mb-3 px-1">
           <button
             type="button"
             onClick={prevMonth}
-            className="p-1 rounded-full hover:bg-slate-200 text-slate-700 transition-colors"
-            title="Previous Month"
+            className="booking-calendar-nav"
+            aria-label="Previous month"
           >
-            <ChevronLeft className="w-5 h-5" />
+            <ChevronLeft aria-hidden="true" className="w-5 h-5" />
           </button>
-          <div className="font-bold text-slate-800 text-sm sm:text-base">
-            {monthNames[currentMonth]} {currentYear}
+          <div>
+            <span className="booking-calendar-label">Choose your date</span>
+            <div className="booking-calendar-month">
+              {monthNames[currentMonth]} <span>{currentYear}</span>
+            </div>
           </div>
           <button
             type="button"
             onClick={nextMonth}
-            className="p-1 rounded-full hover:bg-slate-200 text-slate-700 transition-colors"
-            title="Next Month"
+            className="booking-calendar-nav"
+            aria-label="Next month"
           >
-            <ChevronRight className="w-5 h-5" />
+            <ChevronRight aria-hidden="true" className="w-5 h-5" />
           </button>
         </div>
 
         {/* Days of week */}
-        <div className="grid grid-cols-7 text-center text-xs font-bold text-slate-500 mb-1.5">
+        <div className="booking-calendar-weekdays grid grid-cols-7 text-center text-xs font-bold text-slate-500 mb-1.5">
           <div>Su</div><div>Mo</div><div>Tu</div><div>We</div><div>Th</div><div>Fr</div><div>Sa</div>
         </div>
 
         {/* Days grid */}
-        <div className="grid grid-cols-7 gap-1 text-center">
+        <div className="booking-calendar-days grid grid-cols-7 gap-1 text-center">
           {Array.from({ length: firstDayOfMonth }).map((_, i) => (
-            <div key={`empty-${i}`} className="h-8"></div>
+            <div key={`empty-${i}`} className="booking-calendar-empty" aria-hidden="true"></div>
           ))}
 
           {Array.from({ length: daysInMonth }).map((_, idx) => {
@@ -175,14 +178,16 @@ export default function SafariBookingWidget({ defaultVehicle = 'Jeep' }) {
                 key={`day-${dayNum}`}
                 disabled={isPast}
                 onClick={() => handleDateClick(dayNum)}
-                className={`h-8 sm:h-9 w-full flex items-center justify-center text-xs sm:text-sm font-semibold rounded-lg transition-all ${
+                aria-label={`${monthNames[currentMonth]} ${dayNum}, ${currentYear}`}
+                aria-pressed={isSelected}
+                className={`booking-calendar-day ${
                   isSelected
-                    ? 'bg-kaziranga-800 text-white shadow-md ring-2 ring-safariGold'
+                    ? 'is-selected'
                     : isToday
-                    ? 'border border-amber-500 text-slate-900 bg-amber-50 font-bold'
+                    ? 'is-today'
                     : isPast
-                    ? 'text-slate-300 bg-transparent cursor-not-allowed'
-                    : 'text-slate-700 hover:bg-slate-200/80 bg-white'
+                    ? 'is-past'
+                    : 'is-available'
                 }`}
               >
                 {dayNum}
@@ -191,11 +196,11 @@ export default function SafariBookingWidget({ defaultVehicle = 'Jeep' }) {
           })}
         </div>
 
-        <div className="mt-2.5 pt-2 border-t border-slate-200 text-center text-xs text-slate-600">
-          Selected Date:{' '}
-          <span className="font-bold text-kaziranga-800 bg-emerald-100/80 px-2 py-0.5 rounded">
+        <div className="booking-selected-date mt-2.5 pt-2 border-t border-slate-200 text-center text-xs text-slate-600">
+          <span>Selected Date</span>
+          <strong className="font-bold text-kaziranga-800 bg-emerald-100/80 px-2 py-0.5 rounded">
             {selectedDate || 'Select Date'}
-          </span>
+          </strong>
         </div>
       </div>
 

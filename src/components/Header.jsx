@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <>
       {/* Top Notification Announcement Bar */}
-      <div className="bg-kaziranga-900 text-white text-xs sm:text-sm py-2 px-4 shadow-inner flex justify-center text-center">
+      <div className="site-announcement bg-kaziranga-900 text-white text-xs sm:text-sm py-2 px-4 shadow-inner flex justify-center text-center">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1 text-center sm:text-left">
           <div className="flex items-center justify-center gap-2">
             <span className="bg-safariGold text-slate-950 text-[10px] sm:text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded">
@@ -34,7 +34,7 @@ export default function Header() {
             </span>
             <span className="text-slate-200">
               Jeep & Elephant Safari Booking Open for 2026-2027 Season | Limited Forest Permits
-            </span> 
+            </span>
           </div>
           {/* <div className="hidden md:flex items-center gap-4 text-slate-300">
             <a href="tel:+919911990414" className="hover:text-safariGold transition-colors flex items-center gap-1 font-semibold">
@@ -49,11 +49,11 @@ export default function Header() {
       </div>
 
       {/* Main Navigation Header */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-sm transition-all">
+      <header className="site-header sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-sm transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
+          <div className="site-header-inner flex items-center justify-between h-20">
             {/* Logo */}
-            <Link to="/" onClick={() => setMobileOpen(false)} className="flex items-center gap-3 group">
+            <Link to="/" onClick={() => setMobileOpen(false)} className="site-brand flex items-center gap-3 group">
               <img
                 src={logo}
                 alt="Kaziranga Safari"
@@ -62,14 +62,14 @@ export default function Header() {
             </Link>
 
             {/* Desktop Navigation Links */}
-            <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
+            <nav className="site-nav hidden lg:flex items-center gap-1 xl:gap-2">
               {navLinks.map((link) => {
                 const active = isActive(link.path);
                 return (
                   <Link
                     key={link.path}
                     to={link.path}
-                    className={`px-3 py-2 rounded-lg text-sm font-semibold transition-all duration-150 ${
+                    className={`site-nav-link px-3 py-2 rounded-lg text-sm font-semibold transition-all duration-150 ${
                       active
                         ? 'bg-kaziranga-800 text-white shadow-sm'
                         : 'text-slate-700 hover:text-kaziranga-800 hover:bg-slate-100/80'
@@ -85,7 +85,7 @@ export default function Header() {
             <div className="hidden xl:flex items-center gap-3">
               <Link
                 to="/online-kaziranga-safari-booking"
-                className="inline-flex items-center gap-2 bg-safariGold hover:bg-safariGold-hover text-slate-950 font-bold px-4 py-2 rounded-lg shadow-sm text-xs uppercase tracking-wider transition-all transform hover:-translate-y-0.5"
+                className="site-header-cta inline-flex items-center gap-2 bg-safariGold hover:bg-safariGold-hover text-slate-950 font-bold px-4 py-2 rounded-lg shadow-sm text-xs uppercase tracking-wider transition-all transform hover:-translate-y-0.5"
               >
                 <Calendar className="w-4 h-4" /> Book Safari
               </Link>
@@ -95,7 +95,7 @@ export default function Header() {
             <button
               type="button"
               onClick={() => setMobileOpen((prev) => !prev)}
-              className="lg:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-kaziranga-800 focus:outline-none"
+              className="site-menu-toggle lg:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-kaziranga-800 focus:outline-none"
               aria-label="Toggle mobile menu"
             >
               {mobileOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
@@ -105,7 +105,7 @@ export default function Header() {
 
         {/* Mobile Dropdown Menu Drawer */}
         {mobileOpen && (
-          <div className="lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-1 shadow-xl animate-fadeIn">
+          <div className="site-mobile-menu lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-1 shadow-xl animate-fadeIn">
             {navLinks.map((link) => {
               const active = isActive(link.path);
               return (
@@ -113,7 +113,7 @@ export default function Header() {
                   key={link.path}
                   to={link.path}
                   onClick={() => setMobileOpen(false)}
-                  className={`block px-4 py-2.5 rounded-lg text-base font-semibold ${
+                  className={`site-mobile-link block px-4 py-2.5 rounded-lg text-base font-semibold ${
                     active
                       ? 'bg-kaziranga-800 text-white'
                       : 'text-slate-700 hover:bg-slate-100 hover:text-kaziranga-800'
@@ -128,7 +128,7 @@ export default function Header() {
               <Link
                 to="/online-kaziranga-safari-booking"
                 onClick={() => setMobileOpen(false)}
-                className="w-full flex items-center justify-center gap-2 bg-safariGold text-slate-950 font-bold py-3 rounded-lg text-sm"
+                className="site-mobile-cta w-full flex items-center justify-center gap-2 bg-safariGold text-slate-950 font-bold py-3 rounded-lg text-sm"
               >
                 <Calendar className="w-4 h-4" /> Online Safari Booking
               </Link>

@@ -30,7 +30,7 @@ export default function App() {
       <ScrollToTop />
       <Header />
 
-      <main className="flex-[1_0_auto]">
+      <main className="site-content flex-[1_0_auto]">
         <Routes>
           {/* Home */}
           <Route path="/" element={<HomePage />} />
