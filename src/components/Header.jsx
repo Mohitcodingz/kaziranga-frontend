@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Phone, Menu, X, Calendar, Compass, Map, Image, Mail } from 'lucide-react';
-import logo from '../assets/img/Kaziranga-Safari-Logo-final.png';
+import logo from '../assets/img/kazirangalogo.webp';
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
