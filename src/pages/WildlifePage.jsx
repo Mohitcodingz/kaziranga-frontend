@@ -122,8 +122,7 @@ export default function WildlifePage({ pageType = 'general' }) {
               ].map((animal) => (
                 <div
                   key={animal.title}
-                  className="bg-white rounded-lg overflow-hidden shadow-md border border-slate-100"
-                >
+                  className="bg-white rounded-lg overflow-hidden shadow-md border border-slate-100">
                   <img
                     src={animal.img}
                     alt={animal.alt}

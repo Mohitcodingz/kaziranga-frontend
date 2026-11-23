@@ -33,7 +33,7 @@ export default function Header() {
             </span>
             <span className="text-slate-200">
               Jeep & Elephant Safari Booking Open for 2026-2027 Season | Limited Forest Permits
-            </span>
+            </span> 
           </div>
           {/* <div className="hidden md:flex items-center gap-4 text-slate-300">
             <a href="tel:+919911990414" className="hover:text-safariGold transition-colors flex items-center gap-1 font-semibold">

@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <div className="home-page">
       {/* Hero Banner Section */}
-      <div className="relative h-[420px] sm:h-[480px] lg:h-[520px] w-full bg-[url('/assets/img/kaziranga-national-park.jpg')] bg-cover bg-center">
+      <div className="relative h-[420px] sm:h-[480px] lg:h-[520px] w-full bg-[url('/assets/img/Rhino.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/60 to-slate-900/40 flex items-center justify-center text-center px-4">
           <div className="max-w-4xl mx-auto space-y-4">
             <span className="inline-flex items-center gap-1.5 bg-safariGold/90 text-slate-950 text-xs sm:text-sm font-bold uppercase tracking-widest px-3.5 py-1 rounded-full shadow-lg">
