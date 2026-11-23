@@ -21,7 +21,7 @@ export default function HomePage() {
               <Award className="w-4 h-4" /> UNESCO World Heritage Site
             </span>
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight drop-shadow-md">
-              Kaziranga National Park Online
+              Kaziranga Safari
             </h1>
             <p className="text-base sm:text-xl text-slate-200 max-w-2xl mx-auto font-medium drop-shadow leading-relaxed">
               Home to the Great Indian One-Horned Rhinoceros & Royal Bengal Tigers. Reserve your Jeep and Elephant Safari permits online.

@@ -214,7 +214,7 @@ export default function Footer() {
       <div className="mt-12 bg-slate-950 py-4 border-t border-slate-800/60">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} Kaziranga National Park Online. All Rights Reserved. Operated by Wild Steps - Private Travel Agency organizing Assam wildlife tour packages and Jeep safaris.
+            © {new Date().getFullYear()} Kaziranga Safari. All Rights Reserved. Operated by Wild Steps - Private Travel Agency organizing Assam wildlife tour packages and Jeep safaris.
           </p>
         </div>
       </div>
