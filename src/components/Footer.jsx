@@ -37,14 +37,20 @@ export default function Footer() {
                     <span aria-hidden="true">|</span>
                     <a href="tel:+919599553197">+91- 9599553197</a>
                   </div>
+                  
+                  <div className="site-footer-contact-inline">
+                  <a href="mailto:contact@globaltourismindia.com">contact@globaltourismindia.com</a>
+                  </div>
                 </div>
               </div>
+              
+
               <div className="site-footer-contact-row">
                 <MapPin aria-hidden="true" size={16} />
                 <div>
                   <strong>Address</strong>
                   <span>
-                    Near Kohora Central Gate, NH-37, Kaziranga National Park, District Golaghat, Assam - 785609
+                    314, Laxmi Deep Building, District Centre, Laxmi Nagar, New Delhi, India - 110092
                   </span>
                 </div>
               </div>

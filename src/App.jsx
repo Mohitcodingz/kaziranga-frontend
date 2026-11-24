@@ -64,8 +64,8 @@ export default function App() {
           <Route path="/north-east-golden-triangle-tour.html" element={<Navigate to="/north-east-golden-triangle-tour" replace />} />
           <Route path="/splendor-assam-tour" element={<TourDetailPage fixedSlug="splendor-assam-tour" />} />
           <Route path="/splendor-assam-tour.html" element={<Navigate to="/splendor-assam-tour" replace />} />
-          <Route path="/rhino-and-tiger-tour" element={<TourDetailPage fixedSlug="rhino-and-tiger-tour" />} />
-          <Route path="/rhino-and-tiger-tour.html" element={<Navigate to="/rhino-and-tiger-tour" replace />} />
+          <Route path="/kaziranga-manas-pobitora-tour" element={<TourDetailPage fixedSlug="kaziranga-manas-pobitora-tour" />} />
+          <Route path="/kaziranga-manas-pobitora-tour.html" element={<Navigate to="/kaziranga-manas-pobitora-tour" replace />} />
           <Route path="/kaziranga-photography-tour" element={<TourDetailPage fixedSlug="kaziranga-photography-tour" />} />
           <Route path="/kaziranga-photography-tour.html" element={<Navigate to="/kaziranga-photography-tour" replace />} />
           <Route path="/kaziranga-shillong-tour" element={<TourDetailPage fixedSlug="kaziranga-shillong-tour" />} />

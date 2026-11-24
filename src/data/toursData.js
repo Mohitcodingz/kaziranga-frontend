@@ -95,19 +95,20 @@ export const toursData = [
     ]
   },
   {
-    id: "rhino-and-tiger-tour",
-    slug: "rhino-and-tiger-tour",
-    title: "Rhino And Tiger Tour",
+    id: "kaziranga-manas-pobitora-tour",
+    slug: "kaziranga-manas-pobitora-tour",
+    title: "H1: Kaziranga, Manas & Pobitora: Rhino + Tiger Tour",
     duration: "08 Night - 09 Days",
     reviews: "4.4 Reviews",
     image: "/assets/img/rhino-tiger-tour.jpg",
-    description: "This special tour package has been designed for dedicated sightings of the world-famous Indian One-Horned Rhino and elusive Royal Bengal Tigers. Our itinerary also takes you to the finest biodiversity hotspots of Assam.",
+    description: "Explore Assam's finest wildlife destinations on this 9-day journey covering Kaziranga, Manas and Pobitora. Enjoy multiple jeep and elephant safaris, discover diverse wildlife, track one-horned rhinoceroses and tigers, and experience a Brahmaputra River dolphin excursion before departure.",
     price: "₹48,000",
     highlights: [
-      "Extensive multi-zone Kaziranga safaris (Central, Western, Eastern)",
-      "Manas National Park tiger & golden langur tracking",
-      "Birdwatching along the Brahmaputra banks and wetlands",
-      "Certified wildlife naturalists accompanying all game drives"
+      "Explore Three Wildlife Destinations",
+"Multiple Jeep Safaris",
+"One-Horned Rhino Tracking",
+"Manas Tiger Safari Experience",
+"Brahmaputra River Boat Excursion"
     ],
     itinerary: [
       { day: "Day 1-3", title: "Kaziranga Rhino Tracking", details: "Multiple morning and afternoon safaris focusing on rhino, swamp deer, and wild buffalo." },
@@ -122,7 +123,7 @@ export const toursData = [
     duration: "04 Night - 05 Days",
     reviews: "3.8 Reviews",
     image: "/assets/img/kaziranaga-photo.jpg",
-    description: "Kaziranga National Park Assam has always been a dream destination for avid wildlife enthusiasts and photographers. Its dense grasslands, open woodlands, and lush green flood plains offer the most photogenic vantage points.",
+    description: "Experience a specialised five-day wildlife photography tour in Kaziranga National Park, covering its western, eastern, and central ranges. Capture striking rhino portraits, diverse birdlife, wildlife interactions, and scenic landscapes under expert guidance, with dedicated photography sessions and personalised image reviews.",
     price: "₹26,000",
     highlights: [
       "Exclusive Gypsy with beanbags and camera clamps",
