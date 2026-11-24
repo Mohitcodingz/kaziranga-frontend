@@ -20,8 +20,22 @@ export default function SafariBookingPage() {
           </p>
         </div>
 
+        
+
+
+
+        {/* Layout: Price Tables on Left, Live Booking Widget on Right */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start  ">
+          <div className="lg:col-span-7 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/90 shadow-sm">
+            <SafariPriceTable />
+          </div>
+
+          <div className="lg:col-span-5 lg:sticky lg:top-24">
+            <SafariBookingWidget />
+          </div>
+        </div>
         {/* 4 Steps Banner */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-1 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-1 mb-12 mt-10">
           <div className="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex items-center flex-col  gap-3.5">
             <div className="w-10 h-10 rounded-xl bg-emerald-100 text-kaziranga-800 flex items-center justify-center flex-shrink-0">
               <Calendar className="w-5 h-5" />
@@ -78,19 +92,6 @@ export default function SafariBookingPage() {
               <h4 className="text-sm font-bold text-slate-900 w-[140px]">6.	Submit Booking Request: </h4>
               <p className="text-xs text-slate-500 mt-0.5">Complete the booking form and submit your request for availability confirmation.</p>
             </div>
-          </div>
-        </div>
-
-
-
-        {/* Layout: Price Tables on Left, Live Booking Widget on Right */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          <div className="lg:col-span-7 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/90 shadow-sm">
-            <SafariPriceTable />
-          </div>
-
-          <div className="lg:col-span-5 lg:sticky lg:top-24">
-            <SafariBookingWidget />
           </div>
         </div>
       </div>

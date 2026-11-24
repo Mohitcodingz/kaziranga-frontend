@@ -97,7 +97,7 @@ export const toursData = [
   {
     id: "kaziranga-manas-pobitora-tour",
     slug: "kaziranga-manas-pobitora-tour",
-    title: "H1: Kaziranga, Manas & Pobitora: Rhino + Tiger Tour",
+    title: "Kaziranga, Manas & Pobitora: Rhino + Tiger Tour",
     duration: "08 Night - 09 Days",
     reviews: "4.4 Reviews",
     image: "/assets/img/rhino-tiger-tour.jpg",
