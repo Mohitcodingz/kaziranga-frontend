@@ -201,7 +201,7 @@ body {
 .site-nav-link {
   border-radius: 999px;
   color: #46564a;
-  font-size: 0.78rem;
+  font-size: 1rem;
 }
 
 .site-nav-link:hover {
