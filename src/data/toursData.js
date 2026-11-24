@@ -6,11 +6,11 @@ export const toursData = [
     duration: "2 Night - 3 Days",
     reviews: "4.6 Reviews",
     image: "/assets/img/kaziranaga-weekend-tour.jpg",
-    description: "Visiting any Wildlife Sanctuary in India gives an experience of apex form of tourism. And Kaziranga National Park in Assam is one such wildlife spot known for its abundance green vegetation, various wildlife species, picturesque valleys and pleasant weather.",
+    description: "Experience the wildlife and natural beauty of Kaziranga with this 2-night, 3-day tour. Enjoy elephant and jeep safaris, explore the region's rich birdlife, visit Kaziranga Orchid Park and discover the cultural charm of Assam while staying at a luxury jungle resort.",
     price: "₹14,500",
     highlights: [
       "1 Morning Elephant Safari in Western (Bagori) Zone",
-      "2 Jeep Safaris across Central and Western Ranges",
+      "1 Jeep Safari across Central and Western Ranges",
       "Visit to Kaziranga National Orchid & Biodiversity Park",
       "Comfortable resort stay with all meals included",
       "Dedicated naturalist guide for wildlife tracking"
@@ -28,7 +28,7 @@ export const toursData = [
     duration: "06 Night - 07 Days",
     reviews: "4.1 Reviews",
     image: "/assets/img/north-east-golden-triangle.jpg",
-    description: "North East Golden Triangle Tour is the most demanding tour package when you wish to explore maximum parts of Assam and Meghalaya. Guwahati, Kaziranga, and Shillong come together in this majestic journey of hills, waterfalls, and wildlife.",
+    description: "Explore the highlights of Assam and Meghalaya on this 7-day tour covering Guwahati, Kaziranga, Shillong, Cherrapunjee, Mawlynnong and Dawki. Experience thrilling jungle safaris, scenic waterfalls, sacred temples, cultural attractions and picturesque landscapes while discovering the natural beauty and traditions of Northeast India.",
     price: "₹32,000",
     highlights: [
       "Guwahati Kamakhya Temple blessing & Brahmaputra Sunset Cruise",
@@ -54,13 +54,13 @@ export const toursData = [
     duration: "06 Night - 07 Days",
     reviews: "5.0 Reviews",
     image: "/assets/img/nagaland-meghalaya-tour.jpg",
-    description: "Assam is a state of natural wonderland and it has ample picturesque beauty in its lap. Amalgamation of unique geographical conditions, Assam throws a broad picture of nature that is bestowed with lush greenery, wildlife, rolling hills and historic tea heritage.",
+    description: "Explore the diverse attractions of Assam on this 7-day tour covering Kaziranga, Majuli, Sivasagar and Jorhat. Enjoy thrilling wildlife safaris, scenic ferry rides, ancient Ahom architecture, traditional Assamese culture and visits to renowned tea estates before returning to Guwahati for departure.",
     price: "₹28,500",
     highlights: [
-      "Comprehensive Kaziranga & Majuli River Island exploration",
-      "Tea tasting and plantation tour in historic Hathikuli Estate",
-      "Sivasagar Ahom Dynasty monuments & ancient amphitheaters",
-      "Wildlife jeep safaris across 3 different Kaziranga ranges"
+      "1 Elephant and 1 jeep safari",
+      "Wildlife jeep safaris across 2 different Kaziranga ranges",
+      "Majuli River Island exploration",
+      "Sivasagar Ahom Dynasty monuments & ancient amphitheatres"
     ],
     itinerary: [
       { day: "Day 1", title: "Guwahati Arrival & Transfer to Kaziranga", details: "Arrive at Guwahati and drive to Kaziranga National Park. Relax in tranquil surroundings." },
@@ -78,13 +78,13 @@ export const toursData = [
     duration: "04 Night - 05 Days",
     reviews: "4.2 Reviews",
     image: "/assets/img/kaziranga-shillong-tour.jpg",
-    description: "The astoundingly beautiful tourist destinations in Northeast India attract nature lovers and wildlife enthusiasts for both short and long holidays. Kaziranga National Park and misty Shillong make the perfect combination of wildlife and hill retreat.",
+    description: "Explore the wildlife of Kaziranga and the scenic beauty of Meghalaya on this 5-day tour. Enjoy exciting jeep safaris, discover Cherrapunjee's waterfalls and caves, and experience Shillong's beautiful landscapes with comfortable transfers and accommodation.",
     price: "₹22,000",
     highlights: [
       "Twin holiday featuring Kaziranga safari + Meghalaya pine hills",
-      "Elephant safari and two open-top 4WD Gypsy jungle safaris",
+      "1 Elephant safari and 1 open-top Gypsy jungle safaris",
       "Boating at Umiam Lake and visit to Don Bosco Museum Shillong",
-      "Cherrapunjee waterfall day tour"
+      'Cherrapunjee waterfall day tour'
     ],
     itinerary: [
       { day: "Day 1", title: "Guwahati to Kaziranga", details: "Pickup from airport, road trip along NH-37 to Kaziranga. Overnight stay." },

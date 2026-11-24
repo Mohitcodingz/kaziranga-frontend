@@ -40,8 +40,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <strong className="block text-slate-900 font-bold">Safari Booking Helpline</strong>
-                    <a href="tel:+919911990414" className="text-emerald-700 hover:underline font-semibold">
-                      +91-9911990414
+                    <a href="tel:+919873398995" className="text-emerald-700 hover:underline font-semibold">
+                      +91- 9873398995
                     </a>
                   </div>
                 </div>
@@ -52,8 +52,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <strong className="block text-slate-900 font-bold">WhatsApp & Tour Planning</strong>
-                    <a href="tel:+918882859236" className="text-amber-800 hover:underline font-semibold">
-                      +91-8882859236
+                    <a href="tel:+919599553197" className="text-amber-800 hover:underline font-semibold">
+                      +91- 9599553197
                     </a>
                   </div>
                 </div>

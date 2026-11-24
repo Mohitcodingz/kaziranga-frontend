@@ -13,55 +13,75 @@ export default function SafariBookingPage() {
             Online Forest Reservation
           </span>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Online Kaziranga Safari Booking Portal
+            Kaziranga Online Safari Booking Procedure 
           </h1>
           <p className="text-sm sm:text-base text-slate-600">
-            Advance safari permit reservation for 4x4 Gypsy Jeep Safaris and Morning Mahout Elephant Safaris across all four ranges.
+           The following points explain the step-by-step process for booking a safari in Kaziranga National Park.
           </p>
         </div>
 
         {/* 4 Steps Banner */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
-          <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm flex items-start gap-3.5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-1 mb-12">
+          <div className="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex items-center flex-col  gap-3.5">
             <div className="w-10 h-10 rounded-xl bg-emerald-100 text-kaziranga-800 flex items-center justify-center flex-shrink-0">
               <Calendar className="w-5 h-5" />
             </div>
-            <div>
-              <h4 className="text-sm font-bold text-slate-900">1. Select Date</h4>
-              <p className="text-xs text-slate-500 mt-0.5">Choose your safari date on the live calendar</p>
+            <div className='text-center p-1'>
+              <h4 className="text-sm font-bold text-slate-900">1. Select Safari Date </h4>
+              <p className="text-xs text-slate-500 mt-0.5">Choose your preferred date for visiting Kaziranga National Park.</p>
             </div>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm flex items-start gap-3.5">
+          <div className="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex items-center flex-col  gap-3.5">
             <div className="w-10 h-10 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center flex-shrink-0">
               <Compass className="w-5 h-5" />
             </div>
-            <div>
-              <h4 className="text-sm font-bold text-slate-900">2. Zone & Vehicle</h4>
-              <p className="text-xs text-slate-500 mt-0.5">Select Jeep or Elephant across 4 ranges</p>
+            <div className='text-center p-1'>
+              <h4 className="text-sm font-bold text-slate-900">2.	Choose Safari Type</h4>
+              <p className="text-xs text-slate-500 mt-0.5">Select between Jeep Safari and Elephant Safari, depending on availability.</p>
             </div>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm flex items-start gap-3.5">
+          <div className="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex items-center flex-col  gap-3.5">
             <div className="w-10 h-10 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center flex-shrink-0">
               <UserCheck className="w-5 h-5" />
             </div>
-            <div>
-              <h4 className="text-sm font-bold text-slate-900">3. Traveler Info</h4>
-              <p className="text-xs text-slate-500 mt-0.5">Enter group details & valid Photo ID</p>
+            <div className='text-center p-1'>
+              <h4 className="text-sm font-bold text-slate-900">3.	Select Safari Zone:</h4>
+              <p className="text-xs text-slate-500 mt-0.5">Choose your preferred safari zone, such as Kohora, Bagori, Agaratoli or Burapahar.</p>
             </div>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm flex items-start gap-3.5">
+          <div className="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex items-center flex-col  gap-3.5">
             <div className="w-10 h-10 rounded-xl bg-green-100 text-green-800 flex items-center justify-center flex-shrink-0">
               <CheckCircle className="w-5 h-5" />
             </div>
-            <div>
-              <h4 className="text-sm font-bold text-slate-900">4. E-Permit Issued</h4>
-              <p className="text-xs text-slate-500 mt-0.5">Confirmed gate voucher delivered digitally</p>
+            <div className='text-center p-1'>
+              <h4 className="text-sm font-bold text-slate-900">4.	Select Safari Shift:</h4>
+              <p className="text-xs text-slate-500 mt-0.5">Choose the available morning or afternoon safari slot.</p>
+            </div>
+          </div>
+          <div className="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex items-center flex-col  gap-3.5">
+            <div className="w-10 h-10 rounded-xl bg-green-100 text-green-800 flex items-center justify-center flex-shrink-0">
+              <CheckCircle className="w-5 h-5" />
+            </div>
+            <div className='text-center p-1'>
+              <h4 className="text-sm font-bold text-slate-900">5.	Enter Visitor Details:</h4>
+              <p className="text-xs text-slate-500 mt-0.5">Provide the required details of all visitors, including their names, ages, nationality and identification information.</p>
+            </div>
+          </div>
+           <div className="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex items-center flex-col  gap-3.5">
+            <div className="w-10 h-10 rounded-xl bg-green-100 text-green-800 flex items-center justify-center flex-shrink-0">
+              <CheckCircle className="w-5 h-5" />
+            </div>
+            <div className='text-center p-1'>
+              <h4 className="text-sm font-bold text-slate-900 w-[140px]">6.	Submit Booking Request: </h4>
+              <p className="text-xs text-slate-500 mt-0.5">Complete the booking form and submit your request for availability confirmation.</p>
             </div>
           </div>
         </div>
+
+
 
         {/* Layout: Price Tables on Left, Live Booking Widget on Right */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">

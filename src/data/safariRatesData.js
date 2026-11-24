@@ -1,13 +1,13 @@
 export const jeepSafariRates = [
-  { zone: "Bagori (Western) Range", indian: "₹4,400 / Jeep", foreigner: "₹9,000 / Jeep", duration: "2 hours" },
-  { zone: "Kohora (Central) Range", indian: "₹4,500 / Jeep", foreigner: "₹9,000 / Jeep", duration: "2 hours" },
-  { zone: "Agaratoli (Eastern) Range", indian: "₹5,000 / Jeep", foreigner: "₹11,000 / Jeep", duration: "2 hours" },
-  { zone: "Burapahar Range", indian: "₹5,500 / Jeep", foreigner: "₹12,000 / Jeep", duration: "2 hours" }
+  { zone: "Bagori (Western) Range", indian: "₹4,200 / Jeep", foreigner: "₹8,500 / Jeep", duration: "2 hours" },
+  { zone: "Kohora (Central) Range", indian: "₹4,200 / Jeep", foreigner: "₹8,500 / Jeep", duration: "2 hours" },
+  { zone: "Agaratoli (Eastern) Range", indian: "₹4,700 / Jeep", foreigner: "₹9,100 / Jeep", duration: "2 hours" },
+  { zone: "Burapahar Range", indian: "₹5,300 / Jeep", foreigner: "₹9,700 / Jeep", duration: "2 hours" }
 ];
 
 export const elephantSafariRates = [
-  { zone: "Bagori (Western) Range", indian: "₹2,000 / Person", foreigner: "N/A", duration: "1 hour" },
-  { zone: "Kohora (Central) Range", indian: "N/A", foreigner: "₹5,500 / Person", duration: "1 hour" }
+  { zone: "Bagori (Western) Range", indian: "₹1,900 / Person", foreigner: "N/A", duration: "1 hour" },
+  { zone: "Kohora (Central) Range", indian: "N/A", foreigner: "₹4,150 / Person", duration: "1 hour" }
 ];
 
 export const peakSeasonRates = [

@@ -137,10 +137,10 @@ export default function TourDetailPage({ fixedSlug }) {
                 </Link>
 
                 <a
-                  href="tel:+918882859236"
+                  href="tel:+919599553197"
                   className="w-full text-center py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold rounded-xl text-xs flex items-center justify-center gap-2 transition-colors border border-slate-200 block"
                 >
-                  <Phone className="w-4 h-4 text-safariGold" /> Call Specialist: +91-8882859236
+                  <Phone className="w-4 h-4 text-safariGold" /> Call Specialist: +91- 9599553197
                 </a>
               </div>
 

@@ -122,7 +122,7 @@ export default function SafariPriceTable() {
         <div className="flex items-start gap-2.5 p-3.5 rounded-xl bg-blue-50 border border-blue-200 text-blue-900 text-xs sm:text-sm leading-relaxed">
           <AlertTriangle className="w-4 h-4 text-blue-600 flex-shrink-0 mt-0.5" />
           <div>
-            <strong>Elephant Safari Booking Note:</strong> Advance reservation is preferred for a confirmed elephant safari seat. Elephant quota availability and your morning timing slot (5:00 AM or 6:00 AM) are confirmed one evening prior.
+            <strong>Elephant Safari Booking Note:</strong> Advance reservation is preferred for a confirmed elephant safari seat. Elephant quota availability and your morning timing slot (5:00 AM or 6:00 AM),(6:00 AM or 7:00 AM)  are confirmed one evening prior.
           </div>
         </div>
       </div>

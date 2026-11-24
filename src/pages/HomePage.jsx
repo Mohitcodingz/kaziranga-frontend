@@ -73,7 +73,7 @@ export default function HomePage() {
                 Kaziranga National Park - Global Conservation Milestone
               </h2>
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
-                Located in Assam, Kaziranga National Park is a UNESCO World Heritage Site, recognised in 1985 for its rich biodiversity and natural beauty. Spread across more than 1,000 sq km in Golaghat, Nagaon and Sonitpur districts, the national park borders the mighty Brahmaputra River. 
+                Located in Assam, Kaziranga National Park is a UNESCO World Heritage Site, recognised in 1985 for its rich biodiversity and natural beauty. Spread across more than 1,000 sq km in Golaghat, Nagaon and Sonitpur districts, the national park borders the mighty Brahmaputra River.
               </p>
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
                 Its extensive wetlands and elephant grasslands provide a natural habitat for diverse wildlife, including more than 2,400 one-horned rhinoceroses, Bengal tigers, wild elephants, wild water buffaloes and swamp deer. From just 40 rhinos recorded in 1911, their population has increased remarkably. Visitors can explore this wilderness through guided Kaziranga jeep safaris and elephant safaris.
@@ -230,7 +230,8 @@ export default function HomePage() {
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
                   From sunrise elephant rides through golden grassland mists to exhilarating open Gypsy drives, Kaziranga provides unmatched encounters with majestic wildlife. Other popular regional activities include orchid watching at the National Orchid Park, tea tasting at Hathikuli organic tea estate, and cultural evenings with authentic Assamese folk dances.
                   <br />
-                Elephant Safari: Experience the natural beauty of Kaziranga National Park with a guided elephant safari. Riding on an elephant allows visitors to explore selected grassland areas and observe wildlife from a different perspective. Early morning elephant safaris are arranged for exploring the park's tall elephant grasslands and spotting the famous one-horned rhinoceros.
+                  <h3 className='font-bold text-slate-900 color-green-600 py-3'>Elephant Safari:</h3> 
+                  Experience the natural beauty of Kaziranga National Park with a guided elephant safari. Riding on an elephant allows visitors to explore selected grassland areas and observe wildlife from a different perspective. Early morning elephant safaris are arranged for exploring the park's tall elephant grasslands and spotting the famous one-horned rhinoceros.
                 </p>
 
               </div>
@@ -268,7 +269,7 @@ export default function HomePage() {
                 </div>
 
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
-                 <b>Jeep Safari:</b>  Explore the wilderness of Kaziranga National Park through an exciting jeep safari. Accompanied by trained drivers and guides, visitors can travel through the park's grasslands, forests and wetlands while observing wildlife in its natural habitat. Jeep safaris offer opportunities to spot one-horned rhinoceroses, elephants, deer and various bird species.
+                   <h3 className='font-bold text-slate-900 color-green-600 py-3'>Jeep Safari:</h3>   Explore the wilderness of Kaziranga National Park through an exciting jeep safari. Accompanied by trained drivers and guides, visitors can travel through the park's grasslands, forests and wetlands while observing wildlife in its natural habitat. Jeep safaris offer opportunities to spot one-horned rhinoceroses, elephants, deer and various bird species.
                 </p>
               </div>
 
@@ -308,10 +309,9 @@ export default function HomePage() {
                     </tbody>
                   </table>
                 </div>
-                <p className="text-slate-600 text-sm sm:text-base leading-relaxed text-justify"><b>Boat Safari:</b> Enjoy a peaceful boat safari along the Brahmaputra River and explore the aquatic surroundings of Kaziranga. This experience offers opportunities to observe riverine landscapes, aquatic birds and other wildlife near the riverbanks. Visitors can also enjoy scenic views of the surrounding wetlands while experiencing the natural beauty of the region.</p>
+                <p className="text-slate-600 text-sm sm:text-base leading-relaxed text-justify"> <h3 className='font-bold text-slate-900 color-green-600 py-3'>Boat Safari:</h3> Enjoy a peaceful boat safari along the Brahmaputra River and explore the aquatic surroundings of Kaziranga. This experience offers opportunities to observe riverine landscapes, aquatic birds and other wildlife near the riverbanks. Visitors can also enjoy scenic views of the surrounding wetlands while experiencing the natural beauty of the region.</p>
               </div>
             </div>
-
             {/* Right Images */}
             <div className="lg:col-span-4 space-y-4">
               <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200">

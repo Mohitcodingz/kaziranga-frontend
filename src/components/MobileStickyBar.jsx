@@ -13,7 +13,7 @@ export default function MobileStickyBar() {
           <Calendar className="w-4 h-4 text-emerald-100" /> Online Booking
         </Link>
         <a
-          href="tel:+918882859236"
+          href="tel:+919599553197"
           className="flex items-center justify-center gap-1.5 py-2.5 bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white font-bold rounded-lg text-xs tracking-wide uppercase shadow-sm transition-all text-center"
         >
           <Phone className="w-4 h-4 text-safariGold" /> Call Now
