@@ -105,10 +105,10 @@ export const toursData = [
     price: "₹48,000",
     highlights: [
       "Explore Three Wildlife Destinations",
-"Multiple Jeep Safaris",
-"One-Horned Rhino Tracking",
-"Manas Tiger Safari Experience",
-"Brahmaputra River Boat Excursion"
+      "Multiple Jeep Safaris",
+      "One-Horned Rhino Tracking",
+      "Manas Tiger Safari Experience",
+      "Brahmaputra River Boat Excursion"
     ],
     itinerary: [
       { day: "Day 1-3", title: "Kaziranga Rhino Tracking", details: "Multiple morning and afternoon safaris focusing on rhino, swamp deer, and wild buffalo." },
